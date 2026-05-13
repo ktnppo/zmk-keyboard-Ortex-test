@@ -1,0 +1,12 @@
+if SHIELD_Ortex-test_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Ortex-test"
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+endif
+
+if SHIELD_Ortex-test_LEFT || SHIELD_Ortex-test_RIGHT
+config ZMK_SPLIT
+    default y
+endif
