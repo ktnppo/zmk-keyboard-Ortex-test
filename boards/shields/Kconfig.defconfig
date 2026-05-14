@@ -2,11 +2,32 @@ if SHIELD_Ortex-test_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Ortex-test"
+
+config ZMK_BLE
+    default y
+
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
+
+config INPUT
+    default y
+
+config ZMK_POINTING
+    default y
+
+config SPI
+    default y
+
+config PMW3610
+    default y
+
 endif
 
 if SHIELD_Ortex-test_LEFT || SHIELD_Ortex-test_RIGHT
+config NFCT_PINS_AS_GPIOS
+    default y
+
 config ZMK_SPLIT
     default y
+
 endif
