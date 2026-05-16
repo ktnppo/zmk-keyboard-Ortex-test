@@ -2,7 +2,10 @@ file_format: "1"
 id: Ortex-test
 name: Ortex-test
 type: shield
-url: 
+url: https://github.com/ktnppo/zmk-keyboard-Ortex-test
 requires: [seeeduino_xiao_ble]
 features:
   - keys
+siblings:
+  - Ortex-test_left
+  - Ortex-test_right
