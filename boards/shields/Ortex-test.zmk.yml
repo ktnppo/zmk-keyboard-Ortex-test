@@ -1,0 +1,8 @@
+file_format: "1"
+id: Ortex-test
+name: Ortex-test
+type: shield
+url: 
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
