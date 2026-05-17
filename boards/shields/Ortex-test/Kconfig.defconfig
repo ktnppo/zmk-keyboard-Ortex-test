@@ -1,7 +1,7 @@
-if SHIELD_Ortex-test_r
+if SHIELD_ortex_test_r
 
 config ZMK_KEYBOARD_NAME
-    default "Ortex-test"
+    default "ortex_test"
 
 config ZMK_BLE
     default y
@@ -24,7 +24,7 @@ config PMW3610
 
 endif
 
-if SHIELD_Ortex-test_l || SHIELD_Ortex-test_r
+if SHIELD_ortex_test_l || SHIELD_ortex_test_r
 config NFCT_PINS_AS_GPIOS
     default y
 
