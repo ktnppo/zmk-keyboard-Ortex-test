@@ -1,0 +1,8 @@
+include:
+  - board: xiao_ble
+    shield: ortex_test_r
+    snippet: studio-rpc-usb-uart
+    zmk_extra_modules:
+      - zmk-pmw3610-driver
+  - board: xiao_ble
+    shield: ortex_test_l
