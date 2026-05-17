@@ -20,7 +20,10 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: ortex_test_l
-  - board: seeeduino_xiao_ble
     shield: ortex_test_r
     snippet: studio-rpc-usb-uart
+    zmk_extra_modules:
+      - zmk-pmw3610-driver
+    shield: ortex_test_l
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
