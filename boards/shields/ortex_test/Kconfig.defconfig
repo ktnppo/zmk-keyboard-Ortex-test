@@ -1,4 +1,4 @@
-if SHIELD_ortex_test_r
+if SHIELD_ORTEX_TEST_R
 
 config ZMK_KEYBOARD_NAME
     default "ortex_test"
@@ -23,7 +23,7 @@ config PMW3610
 
 endif
 
-if SHIELD_ortex_test_l || SHIELD_ortex_test_r
+if SHIELD_ORTEX_TEST_L || SHIELD_ORTEX_TEST_R
 config ZMK_SPLIT
     default y
 

@@ -1,5 +1,5 @@
-config SHIELD_ortex_test_l
+config SHIELD_ORTEX_TEST_L
    def_bool $(shields_list_contains,ortex_test_l)
 
-config SHIELD_ortex_test_r
+config SHIELD_ORTEX_TEST_R
    def_bool $(shields_list_contains,ortex_test_r)
