@@ -24,6 +24,5 @@ include:
     snippet: studio-rpc-usb-uart
     zmk_extra_modules:
       - zmk-pmw3610-driver
-    shield: ortex_test_l
   - board: xiao_ble
-    shield: settings_reset
+    shield: ortex_test_l
