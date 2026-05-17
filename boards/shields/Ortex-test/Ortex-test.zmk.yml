@@ -7,5 +7,5 @@ requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
-  - Ortex-test_left
-  - Ortex-test_right
+  - Ortex-test_l
+  - Ortex-test_r
