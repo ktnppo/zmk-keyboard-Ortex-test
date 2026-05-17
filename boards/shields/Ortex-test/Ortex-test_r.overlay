@@ -76,6 +76,7 @@
     device = <&trackball_central>;
 
     scroller {
+        compatible = "zmk,input-behavior-listener";
         layers = <3>;
         input-processors = 
             // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
@@ -88,5 +89,4 @@
 
 &right_encoder {
     status = "okay";
-
 };
