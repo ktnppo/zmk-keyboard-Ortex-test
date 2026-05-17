@@ -1,11 +1,11 @@
 file_format: "1"
-id: Ortex_test
-name: Ortex_test
+id: ortex_test
+name: ortex_test
 type: shield
 url: https://github.com/ktnppo/zmk-keyboard-Ortex-test
 requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
-  - Ortex_test_l
-  - Ortex_test_r
+  - ortex_test_l
+  - ortex_test_r
