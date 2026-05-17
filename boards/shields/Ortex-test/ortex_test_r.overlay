@@ -1,4 +1,4 @@
-#include "Ortex-test.dtsi"
+#include "ortex-test.dtsi"
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
