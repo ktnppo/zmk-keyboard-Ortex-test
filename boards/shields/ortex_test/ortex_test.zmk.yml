@@ -3,7 +3,7 @@ id: ortex_test
 name: ortex_test
 type: shield
 url: https://github.com/ktnppo/zmk-keyboard-Ortex-test
-requires: [xiao_ble]
+requires: xiao_ble
 features:
   - keys
 siblings:

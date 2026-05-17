@@ -1,7 +1,6 @@
 #include "ortex_test.dtsi"
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <dt-bindings/zmk/input_automouse.h>
 
 &default_transform {
     col-offset = <5>;
@@ -55,7 +54,7 @@
 
     trackball_central: trackball_central@0 {
         status = "okay";
-        compatible = "pixart,pmw3610_alt";  //トラボセンサ用のドライバとバインド
+        compatible = "pixart,pmw3610-alt";  //トラボセンサ用のドライバとバインド
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&xiao_d 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; //P0.29を指定(MOTION)
