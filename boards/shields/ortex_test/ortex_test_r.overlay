@@ -78,7 +78,7 @@
         compatible = "zmk,input-behavior-listener";
         layers = <ZMK_INPUT_LISTEN_ANY_LAYER>;
         layer-bindings = <3>;
-        layer-bindings-len <1>;
+        layer-bindings-len = <1>;
         input-processors = 
             // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
