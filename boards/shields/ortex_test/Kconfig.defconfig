@@ -24,6 +24,10 @@ config PMW3610
 endif
 
 if SHIELD_ORTEX_TEST_L || SHIELD_ORTEX_TEST_R
+
+config NFCT_PINS_AS_GPIOS
+    default y
+
 config ZMK_SPLIT
     default y
 
