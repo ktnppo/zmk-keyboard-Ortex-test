@@ -119,7 +119,4 @@
         triggers-per-rotation = <10>;
     };
 
-    uicr {
-        nfct-pins-as-gpios;
-    };
 };
